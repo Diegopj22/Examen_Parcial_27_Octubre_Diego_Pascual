@@ -6,8 +6,12 @@ class Alumno2:
           
     
     def __str__(self):
-         return"""Lo que quiero mostrar
-         """,(self.nombre,self.nota)
+        return '''
+        nombre\t{}´
+        nota\t{}
+        
+        '''.format(self.nombre,self.nota)
+        
     
     
     def calificacion (self):
@@ -16,3 +20,7 @@ class Alumno2:
         else:
             print("Aprobado") 
     
+carlos=Alumno2("carlos ",1)
+pedro=Alumno2(" pedro ",10)
+
+print(carlos,pedro)
