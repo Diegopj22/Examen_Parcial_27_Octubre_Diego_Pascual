@@ -1,8 +1,10 @@
-from codigo2 import Alumno2:
+from codigo2 import Alumno2
+if __name__=='main':
 
-if __name__=='__main__':
+    pedro=("pedro",2,14,22,3)
 
-    print(pedro=Alumno2("pedro",4))
-    print(carlos=Alumno2("carlos",2,45,160))
+
+
+
 
     
