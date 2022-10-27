@@ -12,6 +12,7 @@ class Alumno:
             print("Suspenso")
         else:
             print("Aprobado") 
+    
 
-diego=Alumno("diego",2)
-diego.calificacion()        
+
+        
